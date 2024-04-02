@@ -1,0 +1,43 @@
+@import "Colors";
+
+@media screen and (min-width: 820px) {
+  .home3 {
+    height: 130vh;
+    > div {
+      height: 120vh;
+    }
+  }
+
+  .contact > main {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 0;
+
+    > h1 {
+      text-align: center;
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  nav {
+    // > h1 {
+    //   //   display: none;
+    // }
+    > main {
+      width: 100%;
+      justify-content: center;
+
+      a {
+        margin: 0.5rem;
+      }
+    }
+  }
+}
+
+// .home {
+//   // align-items: center;
+//   // h1{
+//   //     font-size: 3rem $text1;
+//   // }
+// }
